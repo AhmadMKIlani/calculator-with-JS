@@ -1,0 +1,63 @@
+body{
+
+    background-color:#93c572;
+    text-align: center;
+
+}
+
+.calc{
+
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(5, 1fr);
+    background-color:rgb(118, 171, 250) ;
+    padding:10px;
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+    margin: auto;
+
+}
+
+.calc-screen{
+  grid-area: 1/1/2/5;  
+  font-size: 4rem;
+  border: none;
+  background-color: white;
+  color: black;
+  text-align: left;
+  
+}
+
+
+button {
+
+  background-color: black;
+  border-radius: 3px;
+  border: 1px solid #c4c4c4;
+  background-color: navajowhite;
+  font-size: 2rem;
+  color: #333;
+  background-image: linear-gradient(to bottom,transparent,transparent 50%,rgba(0,0,0,.04));
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.4), inset 0 1px 0 0 rgba(255,255,255,.45), inset 0 -1px 0 0 rgba(255,255,255,.15), 0 1px 0 0 rgba(255,255,255,.15);
+  text-shadow: 0 1px rgba(255,255,255,.4);
+}
+
+
+.operator{
+  background-color: yellow;  
+  color: black;
+}
+
+.clear {
+  background-color: red;
+  border-color: #b0353a;
+  color: black;
+}
+
+.equal-sign {
+  border-color: #c4c4c4;
+  color: black;
+}
+
+
